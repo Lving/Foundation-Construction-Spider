@@ -64,7 +64,7 @@ DEFAULT_REQUEST_HEADERS = {
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'jijian_spider.pipelines.MongoPipeline': 300,
+   'jijian_spider.pipelines.JijianSpiderPipeline': 300,
 }
 
 # 随机ua设置
